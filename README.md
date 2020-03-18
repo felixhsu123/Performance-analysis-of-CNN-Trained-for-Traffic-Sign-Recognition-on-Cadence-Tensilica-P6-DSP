@@ -5,5 +5,7 @@ The framework used for training was caffe.Hence once the model was trained a .ca
 Cadence's Tensilica Vision P6 DSP was choosen as the target hardware on which the neural network was implemented.The PAP parameters were calculated for P6 DSP as target hardware.Before actually implementing the neural network it needs to be optimized for the target hardware.This compiler also gives PAP parameters as output.For this task Cadence's Xtensa Neural Network compiler was used.The optimized code is then sent to Xtensa Processor Generator which generates it's RTL equivalent code.This RTL code can then finally be implemented on a FPGA for performing power and area analysis.   
 # Final output given by compiler: Performance report in terms of FPS
 ![](https://github.com/patilninad/Training/blob/master/PerformanceReport.jpeg)  
+# Work in progress - power and area analysis is remaining.
+
 
 

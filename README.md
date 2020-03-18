@@ -6,6 +6,9 @@ Cadence's Tensilica Vision P6 DSP was choosen as the target hardware on which th
 # Final output given by compiler: Performance report in terms of FPS
 ![](https://github.com/patilninad/Training/blob/master/PerformanceReport.jpeg)  
 # Work in progress - power and area analysis is remaining.
-
+# Summary of Softwares used:  
+1) NVIDIA DIGITS - For Training AlexNet
+2) Cadence's Xtensa Neural Network Compiler - For generating optimized code for target hardware and performance report(in fps)
+3) Cadence's Xtensa Processor Generator - For generating RTL code for Xtensa architecture based Vision P6 processor
 
 

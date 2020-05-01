@@ -6,7 +6,8 @@ The framework used for training was caffe.Hence once the model was trained a .ca
 # Target System:-  
 Cadence's Tensilica Vision P6 DSP was choosen as the target hardware, due to the licence availablity of this hardware with my institution, on which the neural network was implemented.The PAP parameters were calculated for P6 DSP.
 # Optimizations:-
-Before actually implementing the neural network first it needs to be optimized for the target hardware.Optimization refers to converting to fixed point code without the loss of accuracy and also some other code optimizations with respect to the hardware.The compiler gives only Performance parameter as output along with the optimized code.For this task Cadence's Xtensa Neural Network compiler software was used.The optimized code is then sent to Xtensa Processor Generator which generates the RTL equivalent code of the DSP implementing the Traffic Sign Recognition system.This RTL code can then finally be dumped on a FPGA for performing power and area analysis.   
+Before actually implementing the neural network first it needs to be optimized for the target hardware.Optimization refers to converting to fixed point code without the loss of accuracy and also some other code optimizations with respect to the hardware.The compiler gives only Performance parameter as output along with the optimized code.For this task Cadence's Xtensa Neural Network compiler software was used.The optimized code is then sent to Xtensa Processor Generator which generates the RTL equivalent code of the DSP implementing the Traffic Sign Recognition system.This RTL code can then finally be dumped on a FPGA for performing power and area analysis.  
+# Xtensa Neural Network Compiler:-  
 # Final output given by compiler: Performance report in terms of FPS
 ![](https://github.com/patilninad/Training/blob/master/PerformanceReport.jpeg)  
 # Work in progress - power and area analysis is remaining.

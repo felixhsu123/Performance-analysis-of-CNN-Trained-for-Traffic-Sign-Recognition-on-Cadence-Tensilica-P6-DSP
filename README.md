@@ -14,6 +14,8 @@ Before actually implementing the neural network first it needs to be optimized f
 4) Xilinx FPGA and ISE design suit/VIVADO - for dumping code on the FPGA.  
 # Xtensa Neural Network Compiler:-  
 # Final output given by compiler: Performance report in terms of FPS
-![](https://github.com/patilninad/Training/blob/master/PerformanceReport.jpeg)  
+![](https://github.com/patilninad/Performance-analysis-of-ConvNet-trained-for-Traffic-Sign-Recognition-on-Cadence-Tensilica-P6-DSP/blob/master/Performance%20Report.PNG)  
+![](https://github.com/patilninad/Performance-analysis-of-ConvNet-trained-for-Traffic-Sign-Recognition-on-Cadence-Tensilica-P6-DSP/blob/master/Performance%20Report%201.PNG)
+
 # Power and Area Analysis:-  
 The RTL code obtained is dumped onto the FPGA. Once dumped we can find out how much area of the FPGA it is occupying in terms of number/percentage of CLB's.

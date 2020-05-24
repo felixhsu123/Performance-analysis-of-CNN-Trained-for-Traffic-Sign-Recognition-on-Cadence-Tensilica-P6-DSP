@@ -12,7 +12,22 @@ Before actually implementing the neural network first it needs to be optimized f
 2) Cadence's Xtensa Neural Network Compiler - For generating optimized code for target hardware and performance report(in fps).
 3) Cadence's Xtensa Processor Generator - For generating RTL code for Xtensa architecture based Vision P6 processor.
 4) Xilinx FPGA and ISE design suit/VIVADO - for dumping code on the FPGA.  
-# Xtensa Neural Network Compiler:-  
+# Xtensa Neural Network Compiler:-   
+The purpose of the Xtensa Neural Network Compiler (XNNC) is to convert a floating-point
+Convolutional Neural Network (CNN) into an optimized, fixed-point solution for Xtensa
+processors.  
+XNNC input:-  
+1).prototxt/.caffemodel file  
+2)Calibration and validation image set    
+XNNC output:-  
+1)Optimized CNN code for target Xtensa DSP    
+2)Accuracy and performance report    
+The XNNC undergoes a multi-stage process to generate an optimized version of your neural
+network. In this process, it analyzes the layer activations of the floating-point network, and evaluates quantization profiles (min/max ranges of the outputs from each layer) across a range of empirical distributions observed in the calibration and validation image sets supplied by the user.Based on this evaluation, scaling factors for fixed-point conversion of each layer are determined.The XNNC then takes these quantization parameters and generates optimized, fixed-point code for your network.  
+The generated code is provided in the form of a workspace which can be imported into Xtensa Xplorer for viewing accuracy and performance parameters.  
+XNNC supports classification, segmentation, and object detection networks as well
+as custom layers.  
+
 # Final output: Performance report in terms of FPS:-
 ![](https://github.com/patilninad/Performance-analysis-of-ConvNet-trained-for-Traffic-Sign-Recognition-on-Cadence-Tensilica-P6-DSP/blob/master/PerformanceReport.jpeg)  
 __________________________________________________________________________________________  

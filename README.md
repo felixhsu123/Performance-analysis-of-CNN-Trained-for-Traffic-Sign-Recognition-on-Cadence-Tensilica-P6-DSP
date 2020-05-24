@@ -32,6 +32,6 @@ The RTL code obtained is dumped onto the FPGA. Once dumped we can find out how m
 # Summary of Softwares used:  
 1)NVIDIA DIGITS - For training AlexNet.  
 2)Xtensa Neural Network Compiler - For generating optimized,fixed-point code for target DSP. 
-3)Xtensa Xplorer - Viewing accuracy and performance parameters.   
+3)Xtensa Xplorer - Viewing performance report.   
 4) Cadence's Xtensa Processor Generator - For generating RTL code for Xtensa architecture based Vision P6 processor.  
 5) Xilinx FPGA and ISE design suit/VIVADO - for dumping code on the FPGA. 

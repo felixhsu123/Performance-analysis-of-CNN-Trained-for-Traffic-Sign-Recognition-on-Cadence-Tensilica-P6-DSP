@@ -30,7 +30,7 @@ Performance came out to be 116.54 frames per second @ 1000.00MHz system clock.
 The RTL code obtained is dumped onto the FPGA. Once dumped we can find out how much area of the FPGA it is occupying in terms of number/percentage of CLB's.  
 # Summary of Softwares used:  
 1)NVIDIA DIGITS - For training AlexNet.  
-2)Xtensa Neural Network Compiler - For generating optimized,fixed-point code for target DSP. 
+2)Xtensa Neural Network Compiler - For generating optimized,fixed-point code for target DSP.   
 3)Xtensa Xplorer - Viewing performance report.   
 4) Cadence's Xtensa Processor Generator - For generating RTL code for Xtensa architecture based Vision P6 processor.  
 5) Xilinx FPGA and ISE design suit/VIVADO - for dumping code on the FPGA. 

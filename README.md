@@ -22,10 +22,12 @@ network. In this process, it analyzes the layer activations of the floating-poin
 The generated code is provided in the form of a workspace which can be imported into Xtensa Xplorer for viewing accuracy and performance parameters.  
 XNNC supports classification, segmentation, and object detection networks as well
 as custom layers.XNNC supports all major CNN architectures.  
-# Final output: Performance report in terms of FPS:-
+# Final output(Performance report in terms of FPS):-
 ![](https://github.com/patilninad/Performance-analysis-of-ConvNet-trained-for-Traffic-Sign-Recognition-on-Cadence-Tensilica-P6-DSP/blob/master/PerformanceReport.jpeg)  
 __________________________________________________________________________________________  
-Performance came out to be 116.54 frames per second @ 1000.00MHz system clock. 
+Performance came out to be 116.54 frames per second @ 1000.00MHz system clock.   
+This gives us an idea of the performance of the neural network when it will be actually implemented on the FPGA/ASIC for real time recognition task.  
+Some further optimization facilities are also available within the software that optimizes the networks performance/accuracy.
 # Power and Area Analysis:-  
 The RTL code obtained is dumped onto the FPGA. Once dumped we can find out how much area of the FPGA it is occupying in terms of number/percentage of CLB's.  
 # Summary of Softwares used:  

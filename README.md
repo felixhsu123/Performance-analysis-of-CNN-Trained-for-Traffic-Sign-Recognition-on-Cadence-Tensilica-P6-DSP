@@ -13,7 +13,7 @@ Before actually implementing the neural network first it needs to be optimized f
 3) Cadence's Xtensa Processor Generator - For generating RTL code for Xtensa architecture based Vision P6 processor.
 4) Xilinx FPGA and ISE design suit/VIVADO - for dumping code on the FPGA.  
 # Xtensa Neural Network Compiler:-  
-# Final output given by compiler: Performance report in terms of FPS:-
+# Final output: Performance report in terms of FPS:-
 ![](https://github.com/patilninad/Performance-analysis-of-ConvNet-trained-for-Traffic-Sign-Recognition-on-Cadence-Tensilica-P6-DSP/blob/master/PerformanceReport.jpeg)  
 __________________________________________________________________________________________  
 Performance came out to be 116.54 frames per second @ 1000.00MHz system clock. 

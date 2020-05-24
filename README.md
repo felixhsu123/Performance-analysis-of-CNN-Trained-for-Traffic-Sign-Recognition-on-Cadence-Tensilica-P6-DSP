@@ -6,12 +6,7 @@ The framework used for training was caffe. The purpose of choosing Caffe was the
 # Target System:-  
 Cadence's Tensilica Vision P6 DSP was choosen as the target hardware, due to the licence availablity of this hardware with my institution, on which the neural network was implemented.
 # Optimizations:-
-Before actually implementing the neural network first it needs to be optimized for the target hardware.Optimization refers to converting to fixed point code without the loss of accuracy and also some other code optimizations with respect to the hardware.The compiler gives only Performance parameter as output along with the optimized code.For this task Cadence's Xtensa Neural Network compiler software was used.The optimized code is then sent to Xtensa Processor Generator which generates the RTL equivalent code of the DSP implementing the Traffic Sign Recognition system.This RTL code can then finally be dumped on a FPGA for performing power and area analysis.    
-# Summary of Softwares used:  
-1) NVIDIA DIGITS - For Training AlexNet.
-2) Cadence's Xtensa Neural Network Compiler - For generating optimized code for target hardware and performance report(in fps).
-3) Cadence's Xtensa Processor Generator - For generating RTL code for Xtensa architecture based Vision P6 processor.
-4) Xilinx FPGA and ISE design suit/VIVADO - for dumping code on the FPGA.  
+Before actually implementing the neural network first it needs to be optimized for the target hardware.Optimization refers to converting to fixed point code without the loss of accuracy and also some other code optimizations with respect to the hardware.The compiler gives only Performance parameter as output along with the optimized code.For this task Cadence's Xtensa Neural Network compiler software was used.The optimized code is then sent to Xtensa Processor Generator which generates the RTL equivalent code of the DSP implementing the Traffic Sign Recognition system.This RTL code can then finally be dumped on a FPGA for performing power and area analysis.     
 # Xtensa Neural Network Compiler:-   
 The purpose of the Xtensa Neural Network Compiler (XNNC) is to convert a floating-point
 Convolutional Neural Network (CNN) into an optimized, fixed-point solution for Xtensa
@@ -33,4 +28,10 @@ as custom layers.
 __________________________________________________________________________________________  
 Performance came out to be 116.54 frames per second @ 1000.00MHz system clock. 
 # Power and Area Analysis:-  
-The RTL code obtained is dumped onto the FPGA. Once dumped we can find out how much area of the FPGA it is occupying in terms of number/percentage of CLB's.
+The RTL code obtained is dumped onto the FPGA. Once dumped we can find out how much area of the FPGA it is occupying in terms of number/percentage of CLB's.  
+# Summary of Softwares used:  
+1)NVIDIA DIGITS - For training AlexNet.  
+2)Xtensa Neural Network Compiler - For generating optimized,fixed-point code for target DSP. 
+3)Xtensa Xplorer - Viewing accuracy and performance parameters.   
+4) Cadence's Xtensa Processor Generator - For generating RTL code for Xtensa architecture based Vision P6 processor.  
+5) Xilinx FPGA and ISE design suit/VIVADO - for dumping code on the FPGA. 

@@ -21,8 +21,7 @@ The XNNC undergoes a multi-stage process to generate an optimized version of you
 network. In this process, it analyzes the layer activations of the floating-point network, and evaluates quantization profiles (min/max ranges of the outputs from each layer) across a range of empirical distributions observed in the calibration and validation image sets supplied by the user.Based on this evaluation, scaling factors for fixed-point conversion of each layer are determined.The XNNC then takes these quantization parameters and generates optimized, fixed-point code for your network.  
 The generated code is provided in the form of a workspace which can be imported into Xtensa Xplorer for viewing accuracy and performance parameters.  
 XNNC supports classification, segmentation, and object detection networks as well
-as custom layers.  
-
+as custom layers.XNNC supports all major CNN architectures.  
 # Final output: Performance report in terms of FPS:-
 ![](https://github.com/patilninad/Performance-analysis-of-ConvNet-trained-for-Traffic-Sign-Recognition-on-Cadence-Tensilica-P6-DSP/blob/master/PerformanceReport.jpeg)  
 __________________________________________________________________________________________  

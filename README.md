@@ -1,5 +1,7 @@
 # Introduction
 PAP stands for Power,Area,Performance.The PAP analysis has become the De facto standard for measuring the efficiency of a hardware system for a target function. For the purpose of implementing a Neural Network on some hardware, like a DSP, analysis of these parameters becomes extremely essential.This will help us in optimizing one or the other parameter so that the system works efficiently in real time. Autonomous Driver Assistance System uses neural networks trained for various tasks such as Lane Detection, traffic sign Detection & Recognition, Pedestrian Detection etc.The target hardware that is selected to implement the neural network must be efficient in terms of power consumed,performance and area consumed.  
+# Dataset: -  
+The dataset under consideration was that of german traffic signs. The dataset was taken from the website http://benchmark.ini.rub.de/?section=home&subsection=news  
 # Target System:-  
 All the software's used are Cadence's proprietary software's.Cadence's Tensilica Vision P6 DSP was choosen as the target hardware, due to the licence availablity of this hardware with my institution, on which the neural network was implemented.
 # Optimizations:-

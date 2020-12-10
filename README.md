@@ -25,13 +25,15 @@ The XNNC undergoes a multi-stage process to generate an optimized version of you
 network. In this process, it analyzes the layer activations of the floating-point network, and evaluates quantization profiles (min/max ranges of the outputs from each layer) across a range of empirical distributions observed in the calibration and validation image sets supplied by the user.Based on this evaluation, scaling factors for fixed-point conversion of each layer are determined.The XNNC then takes these quantization parameters and generates optimized, fixed-point code for your network.  
 The generated code is provided in the form of a workspace which can be imported into Xtensa Xplorer for viewing accuracy and performance parameters.  
 XNNC supports classification, segmentation, and object detection networks as well
-as custom layers.XNNC supports all major CNN architectures.  
-# Final output(Performance report in terms of FPS):-
+as custom layers.XNNC supports all major CNN architectures.   
+# Cadence XNNC output: -  
+The complete files generated at the output of XNNC can be found in this link. https://drive.google.com/drive/folders/1pDJtDUQFtld74pogilrqQNa-C157GLVH?usp=sharing
+# Cadence Xtensa Processor Generator(XPG) output(Performance report in terms of FPS):-
 ![](https://github.com/patilninad/Performance-analysis-of-ConvNet-trained-for-Traffic-Sign-Recognition-on-Cadence-Tensilica-P6-DSP/blob/master/PerformanceReport.jpeg)  
 __________________________________________________________________________________________  
 Performance came out to be 116.54 frames per second @ 1000.00MHz system clock.   
 This gives us an idea of the performance of the neural network when it will be actually implemented on the FPGA/ASIC for real time recognition task.  
-Some further optimization facilities are also available within the software that optimizes the networks performance/accuracy. 
+Some further optimization facilities are also available within the software that optimizes the networks performance/accuracy.    
 # Summary of Softwares used:  
 1)NVIDIA DIGITS - For training AlexNet.  
 2)Xtensa Neural Network Compiler - For generating optimized,fixed-point code for target DSP.   

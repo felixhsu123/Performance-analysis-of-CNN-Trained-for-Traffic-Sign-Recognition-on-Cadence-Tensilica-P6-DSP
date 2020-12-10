@@ -1,0 +1,92 @@
+Comparing parameter data_whd of AlexNet_opt: OK. Data range {0, 255}.
+Comparing parameter softmax_dwh of AlexNet_opt: OK. Data range {1296, 1942}.
+Verification Complete
+
+Xtensa Core: "visionp6"  ISS Version: 12.0.12
+
+TurboXim Mode:
+Time for Simulation = 256.92 seconds  (+ 2.75 seconds for Initialization)
+
+Events                                Number  Number
+                                              per 100
+                                              instrs 
+
+Committed instructions          44449184323 ( 100.00 )
+Taken branches                   1649157811 (   3.71 )
+Exceptions                             1571 (   0.00 )
+   WindowOverflow                       786 (   0.00 )
+   WindowUnderflow                      785 (   0.00 )
+
+
+Cycle-accurate Mode:
+Time for Simulation = 54.47 seconds
+
+Cache Configuration:
+  ICache: 65536 bytes (64KB), 4-way set associative, 256-byte line
+
+Events                             Number  Number
+                                           per 100
+                                           instrs 
+
+Committed instructions           7009031 ( 100.00 )
+Instruction fetches              6503685 (  92.79 )
+   Uncached                           43 (   0.00 )
+   ICache fetches                6503642 (  92.79 )
+      ICache misses                  863 (   0.01 )  0.01% of ICache fetches
+Taken branches                    399490 (   5.70 )
+Exceptions                          5250 (   0.07 )
+   WindowUnderflow                  2625 (   0.04 )
+   WindowOverflow                   2625 (   0.04 )
+Loads                            4928599 (  70.32 )
+   Uncached                        29208 (   0.42 )
+   From DRAM0                    2234809 (  31.88 )
+   From DRAM1                    2664582 (  38.02 )
+Stores                            528019 (   7.53 )
+   Uncached                         6810 (   0.10 )
+   To DRAM0                       453944 (   6.48 )
+   To DRAM1                        67265 (   0.96 )
+GatherAs                           28632 (   0.41 )
+   From DRAM0                      19390 (   0.28 )
+   From DRAM1                       9242 (   0.13 )
+PIF transfers (16 bytes each)      49869 (   0.71 )
+   IFetch reads                    13851 (   0.20 )
+   Data reads                      29208 (   0.42 )
+   Data writes                      6810 (   0.10 )
+iDMA PIF transfers (16 bytes)    3847026 (  54.89 )
+   iDMA reads                    3751342 (  53.52 )
+   iDMA writes                     95684 (   1.37 )
+
+Cycles: total = 12151818
+                                                  Summed |          Summed
+                                          CPI      CPI   |% Cycle  % Cycle
+Committed instructions         7009031 ( 1.0000   1.0000 |  57.68    57.68 )
+Taken branches                 1212141 ( 0.1729   1.1729 |   9.97    67.65 )
+Pipeline interlocks             842696 ( 0.1202   1.2932 |   6.93    74.59 )
+ICache misses                    91713 ( 0.0131   1.3063 |   0.75    75.34 )
+Exceptions                       36750 ( 0.0052   1.3115 |   0.30    75.65 )
+Uncached ifetches                 4522 ( 0.0006   1.3121 |   0.04    75.68 )
+Uncached loads                 2753794 ( 0.3929   1.7050 |  22.66    98.34 )
+Sync replays                     30534 ( 0.0044   1.7094 |   0.25    98.60 )
+Special instructions              4363 ( 0.0006   1.7100 |   0.04    98.63 )
+Loop overhead                    16469 ( 0.0023   1.7124 |   0.14    98.77 )
+Store buffer stalls               7248 ( 0.0010   1.7134 |   0.06    98.83 )
+GatherD global stalls             6141 ( 0.0009   1.7143 |   0.05    98.88 )
+Non-TIE global stalls           136374 ( 0.0195   1.7337 |   1.12   100.00 )
+Reset                                7 ( 0.0000   1.7337 |   0.00   100.00 )
+Breakpoints                         10 ( 0.0000   1.7337 |   0.00   100.00 )
+Simulator overhead                   7 ( 0.0000   1.7337 |   0.00   100.00 )
+Other                               18 ( 0.0000   1.7337 |   0.00   100.00 )
+
+
+Current PC = 0x601609da
+
+Combined
+Events                                Number  Number
+                                              per 100
+                                              instrs 
+
+Committed instructions          44456193354 ( 100.00 )
+Taken branches                   1649557301 (   3.71 )
+Exceptions                             6821 (   0.00 )
+   WindowOverflow                      3411 (   0.00 )
+   WindowUnderflow                     3410 (   0.00 )

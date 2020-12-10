@@ -1,0 +1,475 @@
+462
+softmax:softmax
+Images/1(5).ppm 20 speed
+Images/1(6).ppm 20 speed
+Images/1(7).ppm 20 speed
+Images/1(8).ppm 20 speed
+Images/1(9).ppm 20 speed
+Images/1(10).ppm 20 speed
+Images/1(11).ppm 20 speed
+Images/1(12).ppm 20 speed
+Images/1(13).ppm 20 speed
+Images/1(14).ppm 20 speed
+Images/1(15).ppm 20 speed
+Images/3(5).ppm 30 speed
+Images/3(6).ppm 30 speed
+Images/3(7).ppm 30 speed
+Images/3(8).ppm 30 speed
+Images/3(9).ppm 30 speed
+Images/3(10).ppm 30 speed
+Images/3(11).ppm 30 speed
+Images/3(12).ppm 30 speed
+Images/3(13).ppm 30 speed
+Images/3(14).ppm 30 speed
+Images/3(15).ppm 30 speed
+Images/5(1).ppm 50 speed
+Images/5(2).ppm 50 speed
+Images/5(3).ppm 50 speed
+Images/5(4).ppm 50 speed
+Images/5(5).ppm 50 speed
+Images/5(6).ppm 50 speed
+Images/5(7).ppm 50 speed
+Images/5(8).ppm 50 speed
+Images/5(9).ppm 50 speed
+Images/5(10).ppm 50 speed
+Images/5(11).ppm 50 speed
+Images/7(1).ppm 60 speed
+Images/7(2).ppm 60 speed
+Images/7(3).ppm 60 speed
+Images/7(4).ppm 60 speed
+Images/7(5).ppm 60 speed
+Images/7(6).ppm 60 speed
+Images/7(7).ppm 60 speed
+Images/7(8).ppm 60 speed
+Images/7(9).ppm 60 speed
+Images/7(10).ppm 60 speed
+Images/7(11).ppm 60 speed
+Images/9(1).ppm 70 speed
+Images/9(2).ppm 70 speed
+Images/9(3).ppm 70 speed
+Images/9(4).ppm 70 speed
+Images/9(5).ppm 70 speed
+Images/9(6).ppm 70 speed
+Images/9(7).ppm 70 speed
+Images/9(8).ppm 70 speed
+Images/9(9).ppm 70 speed
+Images/9(10).ppm 70 speed
+Images/9(11).ppm 70 speed
+Images/11(1).ppm 80 speed
+Images/11(2).ppm 80 speed
+Images/11(3).ppm 80 speed
+Images/11(4).ppm 80 speed
+Images/11(5).ppm 80 speed
+Images/11(6).ppm 80 speed
+Images/11(7).ppm 80 speed
+Images/11(8).ppm 80 speed
+Images/11(9).ppm 80 speed
+Images/11(10).ppm 80 speed
+Images/11(11).ppm 80 speed
+Images/13(1).ppm 80 lifted
+Images/13(2).ppm 80 lifted
+Images/13(3).ppm 80 lifted
+Images/13(4).ppm 80 lifted
+Images/13(5).ppm 80 lifted
+Images/13(6).ppm 80 lifted
+Images/13(7).ppm 80 lifted
+Images/13(8).ppm 80 lifted
+Images/13(9).ppm 80 lifted
+Images/13(10).ppm 80 lifted
+Images/13(11).ppm 80 lifted
+Images/15(1).ppm 100 speed
+Images/15(2).ppm 100 speed
+Images/15(3).ppm 100 speed
+Images/15(4).ppm 100 speed
+Images/15(5).ppm 100 speed
+Images/15(6).ppm 100 speed
+Images/15(7).ppm 100 speed
+Images/15(8).ppm 100 speed
+Images/15(9).ppm 100 speed
+Images/15(10).ppm 100 speed
+Images/15(11).ppm 100 speed
+Images/17(1).ppm 120 speed
+Images/17(2).ppm 120 speed
+Images/17(3).ppm 120 speed
+Images/17(4).ppm 120 speed
+Images/17(5).ppm 120 speed
+Images/17(6).ppm 120 speed
+Images/17(7).ppm 120 speed
+Images/17(8).ppm 120 speed
+Images/17(9).ppm 120 speed
+Images/17(10).ppm 120 speed
+Images/17(11).ppm 120 speed
+Images/19(1).ppm no overtaking general
+Images/19(2).ppm no overtaking general
+Images/19(3).ppm no overtaking general
+Images/19(4).ppm no overtaking general
+Images/19(5).ppm no overtaking general
+Images/19(6).ppm no overtaking general
+Images/19(7).ppm no overtaking general
+Images/19(8).ppm no overtaking general
+Images/19(9).ppm no overtaking general
+Images/19(10).ppm no overtaking general
+Images/19(11).ppm no overtaking general
+Images/21(1).ppm no overtaking trucks
+Images/21(2).ppm no overtaking trucks
+Images/21(3).ppm no overtaking trucks
+Images/21(4).ppm no overtaking trucks
+Images/21(5).ppm no overtaking trucks
+Images/21(6).ppm no overtaking trucks
+Images/21(7).ppm no overtaking trucks
+Images/21(8).ppm no overtaking trucks
+Images/21(9).ppm no overtaking trucks
+Images/21(10).ppm no overtaking trucks
+Images/21(11).ppm no overtaking trucks
+Images/23(1).ppm right of way crossing
+Images/23(2).ppm right of way crossing
+Images/23(3).ppm right of way crossing
+Images/23(4).ppm right of way crossing
+Images/23(5).ppm right of way crossing
+Images/23(6).ppm right of way crossing
+Images/23(7).ppm right of way crossing
+Images/23(8).ppm right of way crossing
+Images/23(9).ppm right of way crossing
+Images/23(10).ppm right of way crossing
+Images/23(11).ppm right of way crossing
+Images/25(1).ppm right of way general
+Images/25(2).ppm right of way general
+Images/25(3).ppm right of way general
+Images/25(4).ppm right of way general
+Images/25(5).ppm right of way general
+Images/25(6).ppm right of way general
+Images/25(7).ppm right of way general
+Images/25(8).ppm right of way general
+Images/25(9).ppm right of way general
+Images/25(10).ppm right of way general
+Images/25(11).ppm right of way general
+Images/27(1).ppm give way
+Images/27(2).ppm give way
+Images/27(3).ppm give way
+Images/27(4).ppm give way
+Images/27(5).ppm give way
+Images/27(6).ppm give way
+Images/27(7).ppm give way
+Images/27(8).ppm give way
+Images/27(9).ppm give way
+Images/27(10).ppm give way
+Images/27(11).ppm give way
+Images/29(1).ppm stop
+Images/29(2).ppm stop
+Images/29(3).ppm stop
+Images/29(4).ppm stop
+Images/29(5).ppm stop
+Images/29(6).ppm stop
+Images/29(7).ppm stop
+Images/29(8).ppm stop
+Images/29(9).ppm stop
+Images/29(10).ppm stop
+Images/29(11).ppm stop
+Images/31(1).ppm no way general
+Images/31(2).ppm no way general
+Images/31(3).ppm no way general
+Images/31(4).ppm no way general
+Images/31(5).ppm no way general
+Images/31(6).ppm no way general
+Images/31(7).ppm no way general
+Images/31(8).ppm no way general
+Images/31(9).ppm no way general
+Images/31(10).ppm no way general
+Images/31(11).ppm no way general
+Images/33(1).ppm no way trucks
+Images/33(2).ppm no way trucks
+Images/33(3).ppm no way trucks
+Images/33(4).ppm no way trucks
+Images/33(5).ppm no way trucks
+Images/33(6).ppm no way trucks
+Images/33(7).ppm no way trucks
+Images/33(8).ppm no way trucks
+Images/33(9).ppm no way trucks
+Images/33(10).ppm no way trucks
+Images/33(11).ppm no way trucks
+Images/35(1).ppm no way one way
+Images/35(2).ppm no way one way
+Images/35(3).ppm no way one way
+Images/35(4).ppm no way one way
+Images/35(5).ppm no way one way
+Images/35(6).ppm no way one way
+Images/35(7).ppm no way one way
+Images/35(8).ppm no way one way
+Images/35(9).ppm no way one way
+Images/35(10).ppm no way one way
+Images/35(11).ppm no way one way
+Images/37(1).ppm attention general
+Images/37(2).ppm attention general
+Images/37(3).ppm attention general
+Images/37(4).ppm attention general
+Images/37(5).ppm attention general
+Images/37(6).ppm attention general
+Images/37(7).ppm attention general
+Images/37(8).ppm attention general
+Images/37(9).ppm attention general
+Images/37(10).ppm attention general
+Images/37(11).ppm attention general
+Images/39(1).ppm attention left turn
+Images/39(2).ppm attention left turn
+Images/39(3).ppm attention left turn
+Images/39(4).ppm attention left turn
+Images/39(5).ppm attention left turn
+Images/39(6).ppm attention left turn
+Images/39(7).ppm attention left turn
+Images/39(8).ppm attention left turn
+Images/39(9).ppm attention left turn
+Images/39(10).ppm attention left turn
+Images/39(11).ppm attention left turn
+Images/41(1).ppm attention right turn
+Images/41(2).ppm attention right turn
+Images/41(3).ppm attention right turn
+Images/41(4).ppm attention right turn
+Images/41(5).ppm attention right turn
+Images/41(6).ppm attention right turn
+Images/41(7).ppm attention right turn
+Images/41(8).ppm attention right turn
+Images/41(9).ppm attention right turn
+Images/41(10).ppm attention right turn
+Images/41(11).ppm attention right turn
+Images/43(1).ppm attention curvy
+Images/43(2).ppm attention curvy
+Images/43(3).ppm attention curvy
+Images/43(4).ppm attention curvy
+Images/43(5).ppm attention curvy
+Images/43(6).ppm attention curvy
+Images/43(7).ppm attention curvy
+Images/43(8).ppm attention curvy
+Images/43(9).ppm attention curvy
+Images/43(10).ppm attention curvy
+Images/43(11).ppm attention curvy
+Images/45(1).ppm attention bumpers
+Images/45(2).ppm attention bumpers
+Images/45(3).ppm attention bumpers
+Images/45(4).ppm attention bumpers
+Images/45(5).ppm attention bumpers
+Images/45(6).ppm attention bumpers
+Images/45(7).ppm attention bumpers
+Images/45(8).ppm attention bumpers
+Images/45(9).ppm attention bumpers
+Images/45(10).ppm attention bumpers
+Images/45(11).ppm attention bumpers
+Images/47(1).ppm attention slippery
+Images/47(2).ppm attention slippery
+Images/47(3).ppm attention slippery
+Images/47(4).ppm attention slippery
+Images/47(5).ppm attention slippery
+Images/47(6).ppm attention slippery
+Images/47(7).ppm attention slippery
+Images/47(8).ppm attention slippery
+Images/47(9).ppm attention slippery
+Images/47(10).ppm attention slippery
+Images/47(11).ppm attention slippery
+Images/49(1).ppm attention bottleneck
+Images/49(2).ppm attention bottleneck
+Images/49(3).ppm attention bottleneck
+Images/49(4).ppm attention bottleneck
+Images/49(5).ppm attention bottleneck
+Images/49(6).ppm attention bottleneck
+Images/49(7).ppm attention bottleneck
+Images/49(8).ppm attention bottleneck
+Images/49(9).ppm attention bottleneck
+Images/49(10).ppm attention bottleneck
+Images/49(11).ppm attention bottleneck
+Images/51(1).ppm attention construction
+Images/51(2).ppm attention construction
+Images/51(3).ppm attention construction
+Images/51(4).ppm attention construction
+Images/51(5).ppm attention construction
+Images/51(6).ppm attention construction
+Images/51(7).ppm attention construction
+Images/51(8).ppm attention construction
+Images/51(9).ppm attention construction
+Images/51(10).ppm attention construction
+Images/51(11).ppm attention construction
+Images/53(1).ppm attention traffic light
+Images/53(2).ppm attention traffic light
+Images/53(3).ppm attention traffic light
+Images/53(4).ppm attention traffic light
+Images/53(5).ppm attention traffic light
+Images/53(6).ppm attention traffic light
+Images/53(7).ppm attention traffic light
+Images/53(8).ppm attention traffic light
+Images/53(9).ppm attention traffic light
+Images/53(10).ppm attention traffic light
+Images/53(11).ppm attention traffic light
+Images/55(1).ppm attention pedestrian
+Images/55(2).ppm attention pedestrian
+Images/55(3).ppm attention pedestrian
+Images/55(4).ppm attention pedestrian
+Images/55(5).ppm attention pedestrian
+Images/55(6).ppm attention pedestrian
+Images/55(7).ppm attention pedestrian
+Images/55(8).ppm attention pedestrian
+Images/55(9).ppm attention pedestrian
+Images/55(10).ppm attention pedestrian
+Images/55(11).ppm attention pedestrian
+Images/57(1).ppm attention children
+Images/57(2).ppm attention children
+Images/57(3).ppm attention children
+Images/57(4).ppm attention children
+Images/57(5).ppm attention children
+Images/57(6).ppm attention children
+Images/57(7).ppm attention children
+Images/57(8).ppm attention children
+Images/57(9).ppm attention children
+Images/57(10).ppm attention children
+Images/57(11).ppm attention children
+Images/59(1).ppm attention bikes
+Images/59(2).ppm attention bikes
+Images/59(3).ppm attention bikes
+Images/59(4).ppm attention bikes
+Images/59(5).ppm attention bikes
+Images/59(6).ppm attention bikes
+Images/59(7).ppm attention bikes
+Images/59(8).ppm attention bikes
+Images/59(9).ppm attention bikes
+Images/59(10).ppm attention bikes
+Images/59(11).ppm attention bikes
+Images/61(1).ppm attention snowflake
+Images/61(2).ppm attention snowflake
+Images/61(3).ppm attention snowflake
+Images/61(4).ppm attention snowflake
+Images/61(5).ppm attention snowflake
+Images/61(6).ppm attention snowflake
+Images/61(7).ppm attention snowflake
+Images/61(8).ppm attention snowflake
+Images/61(9).ppm attention snowflake
+Images/61(10).ppm attention snowflake
+Images/61(11).ppm attention snowflake
+Images/63(1).ppm attention deer
+Images/63(2).ppm attention deer
+Images/63(3).ppm attention deer
+Images/63(4).ppm attention deer
+Images/63(5).ppm attention deer
+Images/63(6).ppm attention deer
+Images/63(7).ppm attention deer
+Images/63(8).ppm attention deer
+Images/63(9).ppm attention deer
+Images/63(10).ppm attention deer
+Images/63(11).ppm attention deer
+Images/65(1).ppm lifted general
+Images/65(2).ppm lifted general
+Images/65(3).ppm lifted general
+Images/65(4).ppm lifted general
+Images/65(5).ppm lifted general
+Images/65(6).ppm lifted general
+Images/65(7).ppm lifted general
+Images/65(8).ppm lifted general
+Images/65(9).ppm lifted general
+Images/65(10).ppm lifted general
+Images/65(11).ppm lifted general
+Images/67(1).ppm turn right
+Images/67(2).ppm turn right
+Images/67(3).ppm turn right
+Images/67(4).ppm turn right
+Images/67(5).ppm turn right
+Images/67(6).ppm turn right
+Images/67(7).ppm turn right
+Images/67(8).ppm turn right
+Images/67(9).ppm turn right
+Images/67(10).ppm turn right
+Images/67(11).ppm turn right
+Images/69(1).ppm turn left
+Images/69(2).ppm turn left
+Images/69(3).ppm turn left
+Images/69(4).ppm turn left
+Images/69(5).ppm turn left
+Images/69(6).ppm turn left
+Images/69(7).ppm turn left
+Images/69(8).ppm turn left
+Images/69(9).ppm turn left
+Images/69(10).ppm turn left
+Images/69(11).ppm turn left
+Images/71(1).ppm turn straight
+Images/71(2).ppm turn straight
+Images/71(3).ppm turn straight
+Images/71(4).ppm turn straight
+Images/71(5).ppm turn straight
+Images/71(6).ppm turn straight
+Images/71(7).ppm turn straight
+Images/71(8).ppm turn straight
+Images/71(9).ppm turn straight
+Images/71(10).ppm turn straight
+Images/71(11).ppm turn straight
+Images/73(1).ppm turn straight right
+Images/73(2).ppm turn straight right
+Images/73(3).ppm turn straight right
+Images/73(4).ppm turn straight right
+Images/73(5).ppm turn straight right
+Images/73(6).ppm turn straight right
+Images/73(7).ppm turn straight right
+Images/73(8).ppm turn straight right
+Images/73(9).ppm turn straight right
+Images/73(10).ppm turn straight right
+Images/73(11).ppm turn straight right
+Images/75(1).ppm turn straight left
+Images/75(2).ppm turn straight left
+Images/75(3).ppm turn straight left
+Images/75(4).ppm turn straight left
+Images/75(5).ppm turn straight left
+Images/75(6).ppm turn straight left
+Images/75(7).ppm turn straight left
+Images/75(8).ppm turn straight left
+Images/75(9).ppm turn straight left
+Images/75(10).ppm turn straight left
+Images/75(11).ppm turn straight left
+Images/77(1).ppm turn right down
+Images/77(2).ppm turn right down
+Images/77(3).ppm turn right down
+Images/77(4).ppm turn right down
+Images/77(5).ppm turn right down
+Images/77(6).ppm turn right down
+Images/77(7).ppm turn right down
+Images/77(8).ppm turn right down
+Images/77(9).ppm turn right down
+Images/77(10).ppm turn right down
+Images/77(11).ppm turn right down
+Images/79(1).ppm turn left down
+Images/79(2).ppm turn left down
+Images/79(3).ppm turn left down
+Images/79(4).ppm turn left down
+Images/79(5).ppm turn left down
+Images/79(6).ppm turn left down
+Images/79(7).ppm turn left down
+Images/79(8).ppm turn left down
+Images/79(9).ppm turn left down
+Images/79(10).ppm turn left down
+Images/79(11).ppm turn left down
+Images/81(1).ppm turn circle
+Images/81(2).ppm turn circle
+Images/81(3).ppm turn circle
+Images/81(4).ppm turn circle
+Images/81(5).ppm turn circle
+Images/81(6).ppm turn circle
+Images/81(7).ppm turn circle
+Images/81(8).ppm turn circle
+Images/81(9).ppm turn circle
+Images/81(10).ppm turn circle
+Images/81(11).ppm turn circle
+Images/83(1).ppm lifted no overtaking general
+Images/83(2).ppm lifted no overtaking general
+Images/83(3).ppm lifted no overtaking general
+Images/83(4).ppm lifted no overtaking general
+Images/83(5).ppm lifted no overtaking general 
+Images/83(6).ppm lifted no overtaking general
+Images/83(7).ppm lifted no overtaking general
+Images/83(8).ppm lifted no overtaking general
+Images/83(9).ppm lifted no overtaking general
+Images/83(10).ppm lifted no overtaking general
+Images/83(11).ppm lifted no overtaking general
+Images/85(1).ppm lifted no overtaking trucks
+Images/85(2).ppm lifted no overtaking trucks
+Images/85(3).ppm lifted no overtaking trucks
+Images/85(4).ppm lifted no overtaking trucks
+Images/85(5).ppm lifted no overtaking trucks 
+Images/85(6).ppm lifted no overtaking trucks
+Images/85(7).ppm lifted no overtaking trucks
+Images/85(8).ppm lifted no overtaking trucks
+Images/85(9).ppm lifted no overtaking trucks
+Images/85(10).ppm lifted no overtaking trucks
+Images/85(11).ppm lifted no overtaking trucks

@@ -29,9 +29,7 @@ as custom layers.XNNC supports all major CNN architectures.
 __________________________________________________________________________________________  
 Performance came out to be 116.54 frames per second @ 1000.00MHz system clock.   
 This gives us an idea of the performance of the neural network when it will be actually implemented on the FPGA/ASIC for real time recognition task.  
-Some further optimization facilities are also available within the software that optimizes the networks performance/accuracy.
-# Power and Area Analysis:-  
-The RTL code obtained is dumped onto the FPGA. Once dumped we can find out how much area of the FPGA it is occupying in terms of number/percentage of CLB's.  
+Some further optimization facilities are also available within the software that optimizes the networks performance/accuracy. 
 # Summary of Softwares used:  
 1)NVIDIA DIGITS - For training AlexNet.  
 2)Xtensa Neural Network Compiler - For generating optimized,fixed-point code for target DSP.   
